@@ -53,7 +53,7 @@ CREATE TABLE `Product` (
 );
 
 -- Insert data into the Product table
-INSERT INTO Product (Name, Description, Price, PictureUrl, ProductTypeId, ProductBrandId) VALUES
+INSERT INTO Product (Name, Description, Price, Picture_Url, product_brand_id, product_type_id) VALUES
                                                                                               ('Adidas Quick Force Indoor Badminton Shoes', 'Designed for professional as well as amateur badminton players. These indoor shoes are crafted with synthetic upper that provides natural fit, while the EVA midsole provides lightweight cushioning. The shoes can be used for Badminton and Squash', 3500, 'images/Product/adidas_shoe-1.png', 1, 1),
                                                                                               ('Adidas Quick Force Indoor Badminton Shoes', 'Designed for professional as well as amateur badminton players. These indoor shoes are crafted with synthetic upper that provides natural fit, while the EVA midsole provides lightweight cushioning. The shoes can be used for Badminton and Squash', 3375, 'images/Product/adidas_shoe-2.png', 1, 1),
                                                                                               ('Adidas Quick Force Indoor Badminton Shoes', 'Designed for professional as well as amateur badminton players. These indoor shoes are crafted with synthetic upper that provides natural fit, while the EVA midsole provides lightweight cushioning. The shoes can be used for Badminton and Squash', 3375, 'images/Product/adidas_shoe-3.png', 1, 1),
